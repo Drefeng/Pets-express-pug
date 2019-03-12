@@ -1,8 +1,10 @@
 extends layout
 
 block content
-  h1= title
-  p Welcome to #{title}
-  a(href="/data") data
-  a(href="/pictures") picture
-  a(href="/info") info
+  .container.text-center
+    h1= title
+    p Welcome to #{title}
+
+    a(href="/data") data
+    a(href="/pictures") picture
+    a(href="/info") info
