@@ -1,6 +1,8 @@
 extends layout
 
 block content
-  each val in data
-    ul
-      li Name: #{val.name}, Type: #{val.type}, Gender: #{val.gender}, Age: #{val.age}
+  .container.text-center
+    h1= title
+    each val in data
+      ul
+        li Name: #{val.name}, Type: #{val.type}, Gender: #{val.gender}, Age: #{val.age}

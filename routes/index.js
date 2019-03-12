@@ -16,7 +16,8 @@ router.get('/data', function(req, res, next) {
 
 // INFO
 router.get('/info', function(req, res, next) {
-  res.render('info',  {data: petData});
+  res.render('info',  {title : 'Info',
+    data: petData});
 });
 
 // PET PICTURES
