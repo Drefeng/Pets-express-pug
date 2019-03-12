@@ -1,3 +1,32 @@
-{
-    
-}
+[
+    {
+        "type" : "Horse",
+        "gender" : "Male",
+        "name" : "Aristocrat",
+        "age" : 10
+    },
+
+    {
+        "type" : "Cat",
+        "gender" : "Female",
+        "name" : "Pizza guy",
+        "age" : 5
+    },
+
+    {
+        "type" : "Cat",
+        "gender" : "Male",
+        "name" : "Mellow",
+        "age" : 4
+    },
+
+    {
+        "type" : "Dog",
+        "gender" : "Male",
+        "name" : "Black",
+        "age" : 3
+    }
+]
+
+
+

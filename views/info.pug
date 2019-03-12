@@ -1,5 +1,6 @@
 extends layout
 
 block content
-  h1= title
-  p Welcome to #{title}
+  each val in data
+    ul
+      li Name: #{val.name}, Type: #{val.type}, Gender: #{val.gender}, Age: #{val.age}
